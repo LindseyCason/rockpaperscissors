@@ -7,7 +7,7 @@ function App(props) {
   return (
     <div className="App">
       <PlayerForm />
-      <Hands></Hands>
+      <Hands/>
 
     </div>
   );

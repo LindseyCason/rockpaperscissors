@@ -34,6 +34,8 @@ console.log("p1", playerOneHandName);
         handIndex1(handItems);
         handIndex2(handItems);
         console.log ("p1", playerOneHandName, "p2", playerTwoHandName);
+        var element = document.getElementById("winner");
+        element.classList.add("winnershow");
        
     }
 
@@ -72,7 +74,7 @@ console.log("p1", playerOneHandName);
     </div>        
     <button onClick={clickHandler}>GO!</button>
 
-    <div className="winner">
+    <div className="winnerhide" id="winner">
         <h3>{winner}</h3>
     </div>
         </>
